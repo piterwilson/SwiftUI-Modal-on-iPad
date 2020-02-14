@@ -12,16 +12,30 @@ self.present(myModal, animated: true)
 
 ## Techniques explored in this repository
 
+A few techniques are explored in this repository. All examples attempt to have a "base" screen with a single button that presentes a "modal" view. The "modal" view has a button to dismiss itself.
+
+#### Base view
+
+![Base View](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/start.png)
+
 ### SwiftUI .sheet() View Modifier
 
 Most online resources available will use this approach. It implements SwiftUI's `sheet()` view modifier documented here:  https://developer.apple.com/documentation/swiftui/anyview/3345075-sheet
 
 What is usually failed to mention is that this presentation shows full screen on phones only. On iPad, as the name implies, the presentation displays a "sheet" which is not fullscreen. 
 
+#### Result
+
+![SwiftUI Sheet](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/sheet.png)
+
 [This approach is explored in the `iPadModalSwiftUISheet` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/IpadModalSwiftUISheet)
 
 ### UIKit + SwiftUI Hybrid approach
 
 One way to achieve a full screen modal presentation on iPad is to wrap each `View` instance in a `UIHostController` and then use `ObservableObject` for the communication between `SwiftUI` and `UIKit`. 
+
+#### Result
+
+![SwiftUI + UIKit Hybrid](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/hybrid.png)
 
 [This approach is explored in the `iPadModalHybrid` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/iPadModalHybrid)

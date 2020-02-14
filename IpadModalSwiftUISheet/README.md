@@ -6,6 +6,10 @@ Most online resources available will use this approach. It implements SwiftUI's 
 
 What is usually failed to mention is that this presentation shows full screen on phones only. On iPad, as the name implies, the presentation displays a "sheet" which is not fullscreen. 
 
+#### Result
+
+![SwiftUI Sheet](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/sheet.png)
+
 ### PROS
 * Full SwiftUI
 
