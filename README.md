@@ -18,7 +18,7 @@ Most online resources available will use this approach. It implements SwiftUI's 
 
 What is usually failed to mention is that this presentation shows full screen on phones only. On iPad, as the name implies, the presentation displays a "sheet" which is not fullscreen. 
 
-[This approach is explored in the `iPadModalHybrid` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/IpadModalSwiftUISheet)
+[This approach is explored in the `iPadModalSwiftUISheet` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/IpadModalSwiftUISheet)
 
 ### UIKit + SwiftUI Hybrid approach
 
