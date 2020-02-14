@@ -12,7 +12,7 @@ self.present(myModal, animated: true)
 
 ## Techniques explored in this repository
 
-## SwiftUI .sheet() View Modifier
+### SwiftUI .sheet() View Modifier
 
 Most online resources available will use this approach. It implements SwiftUI's `sheet()` view modifier documented here:  https://developer.apple.com/documentation/swiftui/anyview/3345075-sheet
 
