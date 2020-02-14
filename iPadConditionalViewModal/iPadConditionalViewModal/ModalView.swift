@@ -1,6 +1,6 @@
 //
 //  ModalView.swift
-//  iPadModalHybrid
+//  iPadModalSwiftUISheet
 //
 //  Created by Juan Carlos Ospina Gonzalez on 14/02/2020.
 //  Copyright © 2020 Juan Carlos Ospina Gonzalez. All rights reserved.
@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ModalView: View {
-    var delegate: DismissRequestDelegate?
+    var closeAction: (() -> Void) = {}
     var body: some View {
         ZStack {
             Color.blue.edgesIgnoringSafeArea(.all)
@@ -20,7 +20,7 @@ struct ModalView: View {
                     .foregroundColor(.white)
                     .padding()
                 Button(action: {
-                    self.delegate?.requestDismiss()
+                    self.closeAction()
                 }, label: {
                     Text("OK, BYE!")
                         .foregroundColor(.white)
