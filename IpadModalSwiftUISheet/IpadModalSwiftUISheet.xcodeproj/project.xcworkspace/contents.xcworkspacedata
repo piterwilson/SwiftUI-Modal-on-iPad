@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IpadModalSwiftUISheet.xcodeproj">
+      location = "self:iPadModalSwiftUISheet.xcodeproj">
    </FileRef>
 </Workspace>

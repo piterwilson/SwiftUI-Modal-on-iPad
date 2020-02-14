@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  IpadModalSwiftUISheet
+//  iPadModalSwiftUISheet
 //
 //  Created by Juan Carlos Ospina Gonzalez on 14/02/2020.
 //  Copyright © 2020 Juan Carlos Ospina Gonzalez. All rights reserved.
