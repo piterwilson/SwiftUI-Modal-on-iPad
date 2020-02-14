@@ -10,4 +10,10 @@ myModal.modalPresentationStyle = .fullScreen
 self.present(myModal, animated: true)
 ```
 
+## Techniques explored in this repository
 
+### UIKit + SwiftUI Hybrid approach
+
+One way to achieve a full screen modal presentation on iPad is to wrap each `View` instance in a `UIHostController` and then use `ObservableObject` for the communication between `SwiftUI` and `UIKit`. 
+
+[This approach is explored in the `iPadModalHybrid` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/iPadModalHybrid)
