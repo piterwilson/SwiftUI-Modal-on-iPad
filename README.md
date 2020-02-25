@@ -64,3 +64,5 @@ This will create a `slide` transition and it will be fullscreen. At the time of 
 #### Result
 
 ![SwiftUI NavigationView + NavigationLink Fullscreen](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/navigationLink.gif)
+
+[This approach is explored in the `IpadNavigationViewDetail` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/IpadNavigationViewDetail)
