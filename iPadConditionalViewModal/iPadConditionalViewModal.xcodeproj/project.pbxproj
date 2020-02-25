@@ -14,6 +14,7 @@
 		4FE0B63B23F6DCBA001854FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0B63923F6DCBA001854FC /* LaunchScreen.storyboard */; };
 		4FE0B64423F6DD25001854FC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0B64223F6DD25001854FC /* BaseView.swift */; };
 		4FE0B64523F6DD25001854FC /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0B64323F6DD25001854FC /* ModalView.swift */; };
+		4FEF2E1324055DB9005E15B3 /* SlideBottomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF2E1224055DB9005E15B3 /* SlideBottomTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4FE0B63C23F6DCBA001854FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FE0B64223F6DD25001854FC /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4FE0B64323F6DD25001854FC /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		4FEF2E1224055DB9005E15B3 /* SlideBottomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBottomTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				4FE0B64223F6DD25001854FC /* BaseView.swift */,
 				4FE0B64323F6DD25001854FC /* ModalView.swift */,
+				4FEF2E1224055DB9005E15B3 /* SlideBottomTransition.swift */,
 				4FE0B62E23F6DCB7001854FC /* AppDelegate.swift */,
 				4FE0B63023F6DCB7001854FC /* SceneDelegate.swift */,
 				4FE0B63423F6DCBA001854FC /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE0B64423F6DD25001854FC /* BaseView.swift in Sources */,
+				4FEF2E1324055DB9005E15B3 /* SlideBottomTransition.swift in Sources */,
 				4FE0B62F23F6DCB7001854FC /* AppDelegate.swift in Sources */,
 				4FE0B64523F6DD25001854FC /* ModalView.swift in Sources */,
 				4FE0B63123F6DCB7001854FC /* SceneDelegate.swift in Sources */,

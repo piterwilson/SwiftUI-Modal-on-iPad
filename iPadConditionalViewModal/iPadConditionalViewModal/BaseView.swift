@@ -12,23 +12,27 @@ struct BaseView: View {
     @State private var showModal = false
     var body: some View {
         ZStack {
-            VStack {
-                Button(action: {
-                    self.showModal = true
-                }, label: {
-                    Text("Open Modal")
-                        .padding()
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 5)
-                                .stroke(Color.blue, lineWidth: 1)
-                    )
-                })
-            }
             if showModal {
-                ModalView(closeAction: { self.showModal = false })
+                ModalView(closeAction: {
+                    withAnimation(.easeOut(duration: 0.25)) { self.showModal = false }
+                }).transition(.slideBottom)
+            } else {
+                VStack {
+                    Button(action: {
+                        withAnimation(.easeOut(duration: 0.25)) {
+                            self.showModal = true
+                        }
+                    }, label: {
+                        Text("Open Modal")
+                            .padding()
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 5)
+                                    .stroke(Color.blue, lineWidth: 1)
+                        )
+                    })
+                }
             }
-        }
-        
+        }.statusBar(hidden: true)
     }
 }
 
