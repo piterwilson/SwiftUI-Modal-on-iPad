@@ -1,8 +1,18 @@
 # SwiftUI (fullscreen) modal on iPad
 
-This repository contains my examples on how to present a full screen modal on iPad using SwiftUI.
+## What is Modality?
 
-At the time of writing it doesn't seem like there's a clean way to present a **full screen** modal on iPad. That is, the type of presentation that would be the equivalent to the following in `UIKit`
+Apple describes "Modality" as:
+
+> Modality is a design technique that presents content in a temporary mode that’s separate from the user's previous current context and requires an explicit action to exit. Presenting content modally can:
+> * Help people focus on a self-contained task or set of closely related options
+> * Ensure that people receive and, if necessary, act on critical information
+
+
+
+Even though what constitues a "Modal" is subject to some amount of interpretation on the specific use-case, one blind spot in the `SwiftUI` Framework is the lack of a clean way to present a **Fullscreen modal**
+
+This repository contains my examples on how to present a full screen modal on iPad using SwiftUI, that is, the type of presentation that would be the equivalent to the following in `UIKit`
 
 ```
 let myModal = MyModalViewController()
@@ -42,7 +52,7 @@ One way to achieve a full screen modal presentation on iPad is to wrap each `Vie
 
 ### SwiftUI conditional View
 
-One can achieve a full screen modal presentation on iPad is to simply hide/show the "modal" view on top of the "base" view and use a conditional to control the visibility of the "modal".
+One way to achieve a full screen modal presentation on iPad is to simply hide/show the "modal" view on top of the "base" view (or instead of the "base" view) and use a conditional to control the visibility of the "modal".
 
 #### Result
 

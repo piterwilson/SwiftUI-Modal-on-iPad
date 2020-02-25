@@ -1,7 +1,7 @@
 # SwiftUI (fullscreen) modal on iPad
 ## SwiftUI conditional View
 
-One way to achieve a full screen modal presentation on iPad is to simply hide/show the "modal" view on top of the "base" view and use a conditional to control the visibility of the "modal".
+One way to achieve a full screen modal presentation on iPad is to simply hide/show the "modal" view on top of the "base" view (or instead of the "base" view) and use a conditional to control the visibility of the "modal".
 
 #### Result
 
