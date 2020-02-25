@@ -19,3 +19,4 @@ This will create a `slide` transition and it will be fullscreen. At the time of 
 
 ### CONS
 * Animation not customizable
+* Not really a Modal? (The definition of Modality is here https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/modality/ )

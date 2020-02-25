@@ -8,7 +8,7 @@ What is usually failed to mention is that this presentation shows full screen on
 
 #### Result
 
-![SwiftUI Sheet](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/sheet.png)
+![SwiftUI Sheet](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/_sheeet.gif)
 
 ### PROS
 * Full SwiftUI

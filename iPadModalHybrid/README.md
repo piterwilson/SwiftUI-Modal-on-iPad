@@ -8,7 +8,7 @@ By using this approach, one can easily leverage the existing presentation API's 
 
 #### Result
 
-![SwiftUI + UIKit Hybrid](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/hybrid.png)
+![SwiftUI + UIKit Hybrid](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/_hybrid.gif)
 
 ### PROS
 * **Fulscreen** modal presentation on iPad.

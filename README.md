@@ -26,7 +26,7 @@ What is usually failed to mention is that this presentation shows full screen on
 
 #### Result
 
-![SwiftUI Sheet](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/sheet.png)
+![SwiftUI Sheet](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/_sheeet.gif)
 
 [This approach is explored in the `iPadModalSwiftUISheet` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/IpadModalSwiftUISheet)
 
@@ -36,7 +36,7 @@ One way to achieve a full screen modal presentation on iPad is to wrap each `Vie
 
 #### Result
 
-![SwiftUI + UIKit Hybrid](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/hybrid.png)
+![SwiftUI + UIKit Hybrid](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/_hybrid.gif)
 
 [This approach is explored in the `iPadModalHybrid` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/iPadModalHybrid)
 
@@ -46,7 +46,7 @@ One can achieve a full screen modal presentation on iPad is to simply hide/show 
 
 #### Result
 
-![SwiftUI + UIKit Hybrid](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/hybrid.png)
+![SwiftUI + UIKit Hybrid](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/raw/master/screenshots/_conditionalView.gif)
 
 [This approach is explored in the `iPadConditionalViewModal` project.](https://github.com/piterwilson/SwiftUI-Modal-on-iPad/tree/master/iPadConditionalViewModal)
 
