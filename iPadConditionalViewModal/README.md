@@ -18,3 +18,4 @@ One way to achieve a full screen modal presentation on iPad is to simply hide/sh
 * You will have to add your own animated transition.
 * Doesn't work if the base view is embeded in a `NavigationView` **root** unless the its navigation bar is hidden
 * Doesn't work if the base view is embeded in a `NavigationView` **child**, that is a View presented using `NavigationLink` unless the its navigation bar and back button are hidden
+* In general it ceases to be a fullscreen modal when the modifier is added to a `View` that is not the root `View` in a given layout.
